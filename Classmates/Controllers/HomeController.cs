@@ -16,11 +16,11 @@ namespace Classmates.Controllers
             {
                 new ClassMate( "Brian", "Black", 5.5),
                 new ClassMate( "Seth", "Black", 5.11),
-                new ClassMate( "Zach ", "White", 5.4),
-                new ClassMate( "Trey", "White", 5.2),
-                new ClassMate( "Kate", "White", 5.2),
-                new ClassMate( "Tee", "Black", 5.3),
-                new ClassMate( "Kevin", "Asian", 5.1),
+                new ClassMate( "Zach ", "Blonde", 5.4),
+                new ClassMate( "Trey", "Black", 5.2),
+                new ClassMate( "Kate", "Brown", 5.2),
+                new ClassMate( "Tee", "Brown", 5.3),
+                new ClassMate( "Kevin", "black", 5.1),
             };
             return View(colleagues);
         }
