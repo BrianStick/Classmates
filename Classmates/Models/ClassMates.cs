@@ -7,7 +7,7 @@ namespace Classmates.Models
 {
     public class ClassMate
     {
-        public ClassMate(string name, string hair, double tall)
+        public ClassMate(string name, string hair, double height)
         {
             Name = name;
             HairColor = hair;

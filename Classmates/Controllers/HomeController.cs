@@ -19,8 +19,8 @@ namespace Classmates.Controllers
                 new ClassMate( "Zach ", "Blonde", 5.4),
                 new ClassMate( "Trey", "Black", 5.2),
                 new ClassMate( "Kate", "Brown", 5.2),
-                new ClassMate( "Tee", "Brown", 5.3),
-                new ClassMate( "Kevin", "black", 5.1),
+                new ClassMate( "Tee", "Brown", 5.9),
+                new ClassMate( "Kevin", "Black", 5.5),
             };
             return View(colleagues);
         }
