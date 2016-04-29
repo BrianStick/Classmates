@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Classmates.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,13 +14,13 @@ namespace Classmates.Controllers
         {
             List<ClassMate> colleagues = new List<ClassMate>()
             {
-                new ClassMate( "Brian", "Black", 5.5),
-                new ClassMate( "Seth", "Black", 5.11),
-                new ClassMate( "Zach ", "Blonde", 5.4),
-                new ClassMate( "Trey", "Black", 5.2),
-                new ClassMate( "Kate", "Brown", 5.2),
-                new ClassMate( "Tee", "Brown", 5.9),
-                new ClassMate( "Kevin", "Black", 5.5),
+                new ClassMate( 1,"Brian", "Black", 5.5),
+                new ClassMate( 2,"Seth", "Black", 5.11),
+                new ClassMate( 3,"Zach ", "Blonde", 5.4),
+                new ClassMate( 4,"Trey", "Black", 5.2),
+                new ClassMate( 5,"Kate", "Brown", 5.2),
+                new ClassMate(6, "Tee", "Brown", 5.9),
+                new ClassMate( 7,"Kevin", "Black", 5.5),
             };
             return View(colleagues);
         }
